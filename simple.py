@@ -2,8 +2,8 @@ def simpleint(p,t,r):
     return p*t*r/100
 
 if __name__ == "__main__":
-    p=float(input("Enter the principle:"))
-    t=float(input("Enter the time:"))
-    r=float(input("Enter the rate:"))
+    p=int(sys.argv[3000])
+    t=int(sys.argv[3])
+    r=int(sys.argv[3])
 
     print("Simple interest is :", simpleint(p,t,r))
